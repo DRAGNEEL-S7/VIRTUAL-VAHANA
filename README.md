@@ -5,16 +5,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 👥 Team Details
-* **Team Name:** [Insert Team Name Here]
-* **Institution:** [Insert Institution/University Here]
+* **Team Name:* Zerocollision 
+* **Institution:** Amrita Vishwa vidyapeetham 
 * **Track:** Virtual Vahana - Round 1
 * **Team Members:**
-  * **[Member 1 Name]** - [Role, e.g., Perception & Sensor Fusion]
-  * **[Member 2 Name]** - [Role, e.g., Control Systems & Kinematics]
-  * **[Member 3 Name]** - [Role, e.g., Simulation Integration & HMI]
+  * **[Member 1 Name] SivaKarthik B - **Team Lead & System Architect:** Oversees system integration, arbitration logic, and the synchronous CARLA simulation engine.
+  * **[Member 2 Name] Vishal K - **Perception Engineer (Radar):** Responsible for raw radar data extraction, geometric altitude filtering, and VRU (pedestrian) detection.
+  * **[Member 3 Name]Tharun M K - **Signal Processing Engineer:** Designs and tunes the 1D Kalman Filters for noise reduction in distance and relative velocity data.
+  * **[Member 4 Name] Periyannan - **Longitudinal Controls Engineer:** Develops the Adaptive Cruise Control (ACC) and tunes the PID controller for smooth acceleration/braking.
+  * **[Member 5 Name]Advaith- **Lateral Controls Engineer:** Calculates waypoint cross-track errors and implements the Lane Keeping Assist (LKA) proportional autosteer.
+  * **[Member 6 Name]Abhijith - **Safety Systems Engineer:** Formulates dynamic Time-to-Collision (TTC) calculations and programs the multi-stage AEB/FCW logic.
+  * **[Member 7 Name]Shashank- **HMI & UI Developer:** Builds the Pygame-driven dashboard, rendering real-time telemetry, safe gaps, and visual intervention alerts.
+  * **[Member 8 Name]Shyam - **Simulation Environment Specialist:** Manages the CARLA Traffic Manager, vehicle spawning, and pedestrian (walker) AI controllers.
+  * **[Member 9 Name]Anirudh- **Kinematics & Validation Engineer:** Handles exponential moving average (EMA) actuator smoothing and conducts rigorous system testing/debugging.
 
 ---
-
 ## 📖 Project Overview
 Virtual Vahana is an industry-grade, sensor-fused Advanced Driver Assistance System (ADAS) built within the CARLA Simulator. Designed specifically for unpredictable urban environments, the system adheres to a strict **"Human-First, Safety-Override"** philosophy. 
 
